@@ -4,15 +4,21 @@
         <div id='character' style='position:absolute; top:100px; left:450px; width:59px; height:86px;'></div>
     </div>
     <script type="text/javascript">
-	    var leftValue = 450, topValue = 100, direction = 'down';
+	    var leftValue = 450, topValue = 100, direction = 'down', x = 1;
 
     	function update(){
     		document.getElementById("character").style.left = leftValue+"px";
     		document.getElementById("character").style.top = topValue+"px";
-			document.getElementById("character").style.backgroundImage = "url('img/"+direction+"1.png')";
+			document.getElementById("character").style.backgroundImage = "url('img/"+direction+""+x+".png')";
     	}
 
     	document.onkeydown = function(e){
+			if(x == 2){
+				x = 1;
+			}
+			else{
+				x = 2
+			}
     		console.log(e);
     		if(e.keyCode == 37 && leftValue >0) { // LEFT
     			leftValue = leftValue - 10;
