@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi formulario de resgistro</title>
+</head>
+<body>
+    <h2>Mi Formuliario de Registro</h2>
+    <form action="miregistro.py" method="POST">
+        
+        <label for="nombre">Nombre :</label>
+        <input type="text" id="nombre" name="nombre">
+        <br>
+        <label for="apellido">Apellido :</label>
+        <input type="text" id="apellido" name="nombre">
+        <br>
+        <label for="email">email :</label>
+        <input type="text" id="email" name="email">
+        <br>
+        <label for="password">Contraseña :</label>
+        <input type="password" id="password" name="password">
+        <br>
+        <label for="password">Contraseña :</label>
+        <input type="password" id="password" name="password">
+        <br>
+        <label for="cumpleanos">Cumpleaños :</label>
+        <input type="date" id="cumpleanos" name="cumpleanos">
+        <br>
+        <label for="hombre">Hombre</label>
+        <input type="radio" name="genero" id="hombre">
+        <label for="mujer">Mujer</label>
+        <input type="radio" name="genero" id="mujer">
+        <label for="otro">Otro</label>
+        <input type="radio" name="genero" id="otro">
+        <br>
+        <label for="descripcion :">Una breve descripcionde ti :</label>
+        <br>
+        <textarea name="descripcion" id="descripcion" cols="30" rows="10"></textarea>
+        <br>
+        <label for="lenguaje">Mi lenguaje favorito :</label>
+        <select name="lenguaje" id="lenguaje">
+            <option value="">JavaScript</option>
+            <option value="">Python</option>
+            <option value="">html</option>
+            <option value="">css</option>
+        </select>
+        <br>
+         <input type="submit" value="Enviar">
+    </form>
+
+    
+</body>
+</html>
