@@ -6,7 +6,7 @@ function mostrarVertical(cadena){
 }
 
 var cadena = mostrarVertical("¡Coding Dojo Chile!");
-                           // 01234567890123
+                           // 0123456789012345678
 console.log(cadena);
 // imprime cada letra y un numero al llamar a la funcion mostarVertical
 //cadena es = CDC
@@ -43,4 +43,4 @@ function remplazar(cadena, posicion, valor){
 
 mezclar("¡Coding Dojo Chile - Me Gusta!");
 
-//error de tipeo
+//
