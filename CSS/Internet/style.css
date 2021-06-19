@@ -1,0 +1,206 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#container {
+  width: 970px;
+  height: 1000px;
+}
+#header img {
+  width: 150px;
+}
+#header h1 {
+  font-size: 60px;
+  display: inline-block;
+  padding: 25px;
+  vertical-align: top;
+}
+#header h1 span {
+  color: #23669e;
+}
+#header h2 {
+  font-size: 42px;
+  background-color: #4e80ab;
+  color: #fbfcfd;
+  padding: 15px;
+}
+#side-bar {
+  margin-top: 25px;
+  margin-left: 8px;
+  width: 300px;
+  display: inline-block;
+}
+#side-bar h2 {
+  font-size: 22px;
+}
+#side-bar h2 span {
+  color: #db3933;
+}
+#side-bar h3 {
+  margin-top: 20px;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+#side-bar h3 span {
+  color: #3572a6;
+}
+.l_video {
+  text-decoration: none;
+  font-size: 22px;
+  color: #f5f9fb;
+  background-color: #3977ab;
+  padding: 8px 45px 8px 45px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 5px;
+}
+.m_info {
+  text-decoration: none;
+  font-size: 22px;
+  color: #f5f9fb;
+  background-color: #ed972e;
+  padding: 8px 25px 8px 25px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 5px;
+  margin-top: 8px;
+}
+#side-bar div {
+  margin-top: 50px;
+  padding-top: 50px;
+  width: 261px;
+  background-image: url("img/ad_background.png");
+  text-align: center;
+  display: inline-block;
+}
+#side-bar div h4 {
+  color: #f5f6f7;
+  font-size: 28px;
+  padding: 15px;
+}
+#side-bar div img {
+  width: 100px;
+}
+#side-bar div a {
+  background-color: #15c5df;
+  color: #d1f2f8;
+  padding: 8px 45px 8px 45px;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 10px;
+  margin-bottom: 25px;
+  text-decoration: none;
+}
+#info-top {
+  display: inline-block;
+  width: 650px;
+  vertical-align: top;
+  height: 100px;
+  border-bottom: 2px solid #afafaf;
+  padding-bottom: 10px;
+}
+#info-top img {
+  width: 30px;
+  display: inline-block;
+  padding: 10px;
+  vertical-align: top;
+}
+#info-top a {
+  vertical-align: top;
+  padding-top: 15px;
+  display: inline-block;
+  font-size: 18px;
+  text-decoration: none;
+  color: #2f6ea3;
+}
+#info-top .phonepic {
+  width: 80px;
+  display: inline-block;
+  padding: 10px;
+  display: inline-block;
+  padding-left: 230px;
+}
+.phonebox {
+  display: inline-block;
+  width: 220px;
+  padding-top: 15px;
+}
+.phonebox p {
+  display: inline-block;
+  padding-left: 0px;
+  color: #666666;
+}
+.phonebox h3 {
+  color: #00c0df;
+  display: inline-block;
+  font-size: 38px;
+  vertical-align: top;
+}
+#contenido {
+  display: inline-block;
+  margin-top: 15px;
+  vertical-align: top;
+  text-align: center;
+}
+#contenido h2 {
+  color: #2b6ba2;
+  padding-bottom: 10px;
+  text-align: left;
+}
+#contenido p {
+  text-align: left;
+}
+#contenido span {
+  color: #00c0df;
+}
+#black {
+  color: black;
+  font-family: arial black;
+}
+#contenido ul {
+  margin-left: 40px;
+  text-align: left;
+}
+#contenido li {
+  margin: 10px;
+  text-align: left;
+}
+#contenido img {
+  width: 300px;
+  text-align: center;
+}
+#contenido ol {
+  margin-left: 25px;
+}
+#back-info {
+  border-top: 5px solid #0085e0;
+  border-left: 5px solid #0085e0;
+  border-right: 5px solid #0085e0;
+  display: inline-block;
+  height: 200px;
+  text-align: left;
+}
+#back-info img {
+  width: 150px;
+  display: inline-block;
+}
+#back-info h2 {
+  display: inline-block;
+  text-align: left;
+}
+#back-info p {
+  display: inline-block;
+  width: 300px;
+  vertical-align: top;
+  padding-bottom: 15px;
+}
+#back-info div {
+  display: inline-block;
+  width: 450px;
+  vertical-align: top;
+}
+#back-info div p a {
+  font-size: 16px;
+  padding: 0;
+}
