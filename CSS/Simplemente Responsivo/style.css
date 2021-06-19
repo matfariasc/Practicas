@@ -1,0 +1,19 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+h1 {
+  background-color: #b3b3b3;
+  padding: 15px;
+  margin: 15px;
+}
+p {
+  background-color: #cccccc;
+  padding: 15px;
+  margin: 15px;
+}
+h4 {
+  padding: 15px;
+  background-color: #ffff9a;
+  margin: 15px;
+}
