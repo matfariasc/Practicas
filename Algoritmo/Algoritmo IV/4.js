@@ -4,7 +4,7 @@ function removerRango(x,y,z){
         newarray.push(x[i]);
         
     }
-    for( z ; z<x.length; z++){
+    for( z  ; z +1<x.length; z++){
         newarray.push(x[z]);
         
     }
