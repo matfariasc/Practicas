@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#wrapper {
+  width: 0 auto;
+}
+#nav-top h3 {
+  display: inline-block;
+  width: 49px;
+  font-size: 10px;
+  color: red;
+  text-align: center;
+  margin-bottom: 15px;
+}
+#principal {
+  display: inline-block;
+  height: 400px;
+}
+.nav-left {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 30px;
+}
+.nav-left h3 {
+  width: 50px;
+  height: 50px;
+  font-size: 10px;
+  color: red;
+  text-align: center;
+}
+#gas-noble {
+  display: inline-block;
+}
+
+#gas-noble .box {
+  background-color: #689bff;
+  color: #1a15a3;
+}
+.box {
+  width: 46px;
+  height: 46px;
+  text-align: center;
+  border: 1px solid black;
+  margin-bottom: 5px;
+}
+.box p {
+  font-size: 10px;
+}
+#material {
+  display: inline-block;
+}
+
+#material .box {
+  background-color: #fd9a98;
+  color: #1a15a3;
+}
+.marg {
+  margin-left: 15px;
+}
+#material-y {
+  display: inline-block;
+}
+
+#material-y .box {
+  background-color: #fecb00;
+  color: #1a15a3;
+}
+#lanthanoids h2 {
+  font-size: 14px;
+  color: red;
+  display: inline-block;
+  margin-left: 50px;
+  margin-right: 17px;
+}
+
+#lanthanoids .box {
+  background-color: #1fca21;
+  color: #1a15a3;
+  display: inline-block;
+}
+#actinoids h2 {
+  font-size: 14px;
+  color: red;
+  display: inline-block;
+  margin-left: 50px;
+  margin-right: 28px;
+}
+
+#actinoids .box {
+  background-color: #1fca21;
+  color: #1a15a3;
+  display: inline-block;
+}
