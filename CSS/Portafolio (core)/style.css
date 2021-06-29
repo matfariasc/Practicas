@@ -75,6 +75,8 @@
 .projects p {
   padding: 5px 5px 60px 5px;
   text-align: left;
+  vertical-align: bottom;
+  height: 173px;
 }
 .projects div div {
   text-align: left;
